@@ -7,9 +7,9 @@ class App < Sinatra::Base
     set :sesion_secret, "secret"
   end
   
-  # get '/' do 
-  #   erb :index
-  # end
+  get '/' do 
+    erb :index
+  end
   
   # post '/checkout'
   #   @session = session
