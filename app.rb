@@ -12,7 +12,8 @@ class App < Sinatra::Base
   end
   
   post '/checkout'
-    
+    @session = session
+    @shopping_cart = 
   end
   
  
